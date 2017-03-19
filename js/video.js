@@ -1,4 +1,4 @@
-const videoIds = {
+var videoIds = {
   webSeries: [
     { id: 2416150745192298, thumbnail: 'https://scontent.xx.fbcdn.net/v/t15.0-10/s480x480/17237877_2416161508524555_6392696002733670400_n.jpg?oh=8b73758f5313a8c8d49df9e7f78e07bb&oe=596C4B5E', box: false },
     { id: 2411142222359817, thumbnail: 'https://scontent.xx.fbcdn.net/v/t15.0-10/s480x480/17037055_2411144665692906_4800544075553964032_n.jpg?oh=dff691eb004dbe2efb8c1a2a1b618333&oe=596205A9', box: false },
@@ -55,10 +55,10 @@ const videoIds = {
 
 document.addEventListener("DOMContentLoaded",
   function() {
-    for (let key in videoIds) {
-      const v = document.getElementsByClassName(`${key}-wrapper`)
-      let div
-      for (let n = 0; n < videoIds[key].length; n++) {
+    for (var key in videoIds) {
+      var v = document.getElementsByClassName(`${key}-wrapper`)
+      var div
+      for (var n = 0; n < videoIds[key].length; n++) {
         div = document.createElement("div");
         div.setAttribute("data-id", videoIds[key][n].id);
         div.setAttribute("data-box", videoIds[key][n].box);
@@ -70,9 +70,11 @@ document.addEventListener("DOMContentLoaded",
 });
 
 function thumb(url, box) {
-    let img = document.createElement("img");
-    img.setAttribute("src", url)
-    if (box) img.className = "box"
+    var img = document.createElement("img");
+    img.setAttribute("src", url);
+    if (box) {
+      img.className = "box";
+    }
     return img;
 }
 

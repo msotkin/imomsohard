@@ -1,4 +1,4 @@
-const tourDates = [
+var tourDates = [
   {
     date: 'Monday June 12',
     city: 'Modesto, CA',
@@ -219,9 +219,9 @@ const tourDates = [
 
 document.addEventListener("DOMContentLoaded", 
   function() {
-    const v = document.getElementsByClassName("tour-dates");
-    let li, p, a, button;
-    for (let i = 0; i < tourDates.length; i++) {
+    var v = document.getElementsByClassName("tour-dates");
+    var li, p, a, button;
+    for (var i = 0; i < tourDates.length; i++) {
       li = document.createElement("li");
       p = document.createElement("p");
       a = document.createElement("a");
