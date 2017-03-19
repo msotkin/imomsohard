@@ -155,6 +155,12 @@ h3 {
     background-image: url('../assets/hero.jpg');
 }
 
+@media (max-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+    }
+}
+
 /*Tour Section*/
 
 .tour-section {
