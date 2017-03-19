@@ -116,7 +116,7 @@ const tourDates = [
   {
     date: 'Wednesday July 12',
     city: 'Akron, OH',
-    venue: '',
+    venue: 'Civic Center',
     url: ''
   },
   {
@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded",
       a.appendChild(button);
       
       p.innerHTML = tourDates[i].date + " <span>" + tourDates[i].city + "</span> " + tourDates[i].venue;
-      
+
       li.appendChild(p);
       li.appendChild(a);
       v[0].appendChild(li);

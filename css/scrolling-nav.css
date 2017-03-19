@@ -28,6 +28,43 @@ html {
     }
 }
 
+@media (max-width: 1200px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+}
+
 /*Modal*/
 
 .modal {
@@ -101,12 +138,19 @@ html {
 
 .parallax {
     max-width: 100%;
-    width: 100%;
+    min-width: 100%;
     height: 100%;
     background-attachment: fixed;
-    background-position: 0px 40px;
+    background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (max-device-width: 1024px) {
+    .parallax {
+        background-attachment: scroll;
+        height: 400px;
+    }
 }
 
 .hero {
@@ -343,7 +387,7 @@ html {
 }
 
 .bio-pic {
-    height: 600px;
+    min-height: 600px;
     background-image: url('../assets/bio.jpg');
     background-position: 0 -200px;
 }
@@ -352,7 +396,7 @@ html {
 
 .contact-section {
     padding: 110px 0;
-    height: 600px;
+    min-height: 600px;
     text-align: center;
     color: #eee;
 }
@@ -361,6 +405,7 @@ html {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
 }
 
 .contact-list li {
@@ -383,3 +428,4 @@ html {
 .contact-pic {
     background-image: url('../assets/contact.jpg');
 }
+
