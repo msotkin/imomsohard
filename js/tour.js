@@ -223,7 +223,6 @@ document.addEventListener("DOMContentLoaded",
     var li, p, a, button;
     for (var i = 0; i < tourDates.length; i++) {
       li = document.createElement("li");
-      p = document.createElement("p");
       a = document.createElement("a");
       button = document.createElement("button");
 
@@ -232,9 +231,8 @@ document.addEventListener("DOMContentLoaded",
       a.setAttribute("target", "_blank");
       a.appendChild(button);
       
-      p.innerHTML = tourDates[i].date + " <span>" + tourDates[i].city + "</span> " + tourDates[i].venue;
+      li.innerHTML = "<h4>"+tourDates[i].date + "</h4><p><span>" + tourDates[i].city + "</span></p><p>" + tourDates[i].venue + "</p>";
 
-      li.appendChild(p);
       li.appendChild(a);
       v[0].appendChild(li);
     }
