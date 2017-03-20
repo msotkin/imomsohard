@@ -372,11 +372,6 @@ iframe {
     background-image: url('../assets/bio.jpg');
 }
 
-@media screen and (min-width: 1024px) {
-    .bio-pic {
-        background-position-y: -200px;
-    }
-}
 
 /*Contact Section*/
 

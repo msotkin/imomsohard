@@ -226,7 +226,8 @@ document.addEventListener("DOMContentLoaded",
       a = document.createElement("a");
       button = document.createElement("button");
 
-      button.innerHTML = "Tickets";
+      button.setAttribute("disabled", "true");
+      button.innerHTML = "COMING SOON!!!";
       a.setAttribute("href", tourDates[i].url);
       a.setAttribute("target", "_blank");
       a.appendChild(button);
