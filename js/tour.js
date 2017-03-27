@@ -2,13 +2,13 @@ var tourDates = [
   {
     date: 'Monday June 12',
     city: 'Modesto, CA',
-    venue: 'Gallo Center',
+    venue: 'Gallo Center for the Arts',
     url: ''
   },
   {
     date: 'Tuesday June 13',
     city: 'San Jose, CA',
-    venue: 'Center for the Performing Arts',
+    venue: 'San Jose Center for Performing Arts',
     url: ''
   },
   {
@@ -26,7 +26,7 @@ var tourDates = [
   {
     date: 'Friday June 16',
     city: 'Thousand Oaks, CA',
-    venue: 'Thousand Oaks Civic Arts Plaza',
+    venue: 'Thousand Oaks Civic Plaza',
     url: ''
   },
   {
@@ -38,7 +38,7 @@ var tourDates = [
   {
     date: 'Monday June 19',
     city: 'Riverside, CA',
-    venue: 'The Fox',
+    venue: 'The Fox Theatre',
     url: ''
   },
   {
@@ -49,20 +49,20 @@ var tourDates = [
   },
   {
     date: 'Thursday June 22',
-    city: 'Fort Collins',
+    city: 'Fort Collins, CO',
     venue: 'Lincoln Center',
     url: ''
   },
   {
     date: 'Saturday June 24',
     city: 'Omaha, NE',
-    venue: 'Kiewit Concert Hall',
+    venue: 'Holland Performing Arts Center',
     url: ''
   },
   {
     date: 'Sunday June 25',
     city: 'Kansas City, MO',
-    venue: 'The Midland By AMC',
+    venue: 'Arvest Bank Theatre',
     url: ''
   },
   {
@@ -74,19 +74,19 @@ var tourDates = [
   {
     date: 'Thursday June 29',
     city: 'Indianapolis, IN',
-    venue: 'Murat',
+    venue: 'Murat Theatre',
     url: ''
   },
   {
     date: 'Friday June 30',
     city: 'Peoria, IL',
-    venue: 'Civic Center',
+    venue: 'Peoria Civic Center',
     url: ''
   },
   {
     date: 'Thursday July 6',
     city: 'Green Bay, WI',
-    venue: 'Meyer',
+    venue: 'Meyer Theatre',
     url: ''
   },
   {
@@ -110,13 +110,13 @@ var tourDates = [
   {
     date: 'Tuesday July 11',
     city: 'Columbus, OH',
-    venue: 'Southern Theatre',
+    venue: 'The Southern Theatre',
     url: ''
   },
   {
     date: 'Wednesday July 12',
     city: 'Akron, OH',
-    venue: 'Civic Center',
+    venue: 'Akron Civic Center',
     url: ''
   },
   {
@@ -134,13 +134,13 @@ var tourDates = [
   {
     date: 'Saturday July 15',
     city: 'Baltimore, MD',
-    venue: 'Lyric Opera House',
+    venue: 'The Modell Lyric',
     url: ''
   },
   {
     date: 'Sunday July 16',
     city: 'Englewood, NJ',
-    venue: 'Bergen PAC',
+    venue: 'Bergen Performance Arts Center',
     url: ''
   },
   {
@@ -164,7 +164,7 @@ var tourDates = [
   {
     date: 'Saturday July 22',
     city: 'Providence, RI',
-    venue: 'Veterans Memorial Auditorium',
+    venue: 'The VETS',
     url: ''
   },
   {
@@ -176,43 +176,37 @@ var tourDates = [
   {
     date: 'Tuesday July 25',
     city: 'Atlanta, GA',
-    venue: 'Cobb Energy Performing Arts Centre',
+    venue: 'Cobb Energy Centre',
     url: ''
   },
   {
     date: 'Thursday July 27',
     city: 'San Antonio, TX',
-    venue: 'Tobin',
-    url: ''
-  },
-  {
-    date: 'Friday July 28',
-    city: 'Dallas, TX',
-    venue: 'Long Center',
+    venue: 'Tobin Center',
     url: ''
   },
   {
     date: 'Saturday July 29',
     city: 'Dallas, TX',
-    venue: 'Majestic',
+    venue: 'Majestic Theatre',
     url: ''
   },
   {
     date: 'Sunday July 30',
     city: 'Houston, TX',
-    venue: 'Cullen',
+    venue: 'Cullen Performance Hall',
     url: ''
   },
   {
     date: 'Monday July 31',
-    city: 'Oklahoma City, OK',
-    venue: 'Rose State',
+    city: 'Midwest City, OK',
+    venue: 'Rose State College Hudiburg Chevrolet Center',
     url: ''
   },
   {
     date: 'Tuesday August 1',
     city: 'Tulsa, OK',
-    venue: 'Ballroom/ Cox Business Center',
+    venue: 'Cox Business Center',
     url: ''
   }
 ]

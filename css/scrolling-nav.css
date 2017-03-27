@@ -75,6 +75,10 @@ iframe {
     font-weight: bold;
     color: white;
     margin: -30px 0 0 10px;
+    text-shadow: 1px 1px black,
+    -1px 1px black,
+    -1px -1px black,
+    1px -1px black;
 }
 
 @media screen and (max-width: 500px) {
@@ -329,7 +333,7 @@ iframe {
     margin-bottom: 90px;
 }
 
-.newsletter-section button {
+#mc-embedded-subscribe {
     background-color: #ff2cb1;
     color: white;
     width: 11em;
@@ -339,34 +343,18 @@ iframe {
 }
 
 .newsletter-section input {
-    width: 50%;
+    width: 80%;
+    margin: 0 0 20px 0;
     height: 50px;
     background-color: black;
     border: 1px solid #ff2cb1;
     padding: 0 10px;
-    margin-right: 30px;
 }
 
-.newsletter-section button:hover {
+#mc-embedded-subscribe:hover {
     background-color: white;
     color: #ff2cb1;
     border: 1px solid #ff2cb1;
-}
-
-.input-wrapper {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-@media screen and (max-width: 1024px) {
-    .input-wrapper {
-        display: inline;
-    }
-    .newsletter-section input {
-        width: 80%;
-        margin: 0 0 20px 0;
-    }
 }
 
 /*Bio Section*/
