@@ -99,7 +99,7 @@ var tourDates = [
     date: 'Saturday July 8',
     city: 'Flint, MI',
     venue: 'The Whiting',
-    url: ''
+    url: 'http://bit.ly/2nHRyJo'
   },
   {
     date: 'Sunday July 9',
@@ -195,7 +195,7 @@ var tourDates = [
     date: 'Sunday July 30',
     city: 'Houston, TX',
     venue: 'Cullen Performance Hall',
-    url: ''
+    url: 'http://bit.ly/2o2gKLc'
   },
   {
     date: 'Monday July 31',
