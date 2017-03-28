@@ -87,7 +87,7 @@ var tourDates = [
     date: 'Thursday July 6',
     city: 'Green Bay, WI',
     venue: 'Meyer Theatre',
-    url: 'http://bit.ly/2mZh48H'
+    url: 'http://ev3.evenue.net/cgi-bin/ncommerce3/EVExecMacro?linkID=pmi&evm=prmo&RSRC=&RDAT=&caller=PR'
   },
   {
     date: 'Friday July 7',
@@ -186,7 +186,7 @@ var tourDates = [
     url: 'http://bit.ly/2n9Ophw'
   },
   {
-    date: 'Saturday July 29',
+    date: 'Friday July 28',
     city: 'Dallas, TX',
     venue: 'Majestic Theatre',
     url: 'http://bit.ly/2n1TY2b'
@@ -206,7 +206,7 @@ var tourDates = [
   {
     date: 'Tuesday August 1',
     city: 'Tulsa, OK',
-    venue: 'Cox Center',
+    venue: 'Cox Business Center Ballroom',
     url: 'http://bit.ly/2mK0azU'
   }
 ]
