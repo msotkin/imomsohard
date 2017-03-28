@@ -26,7 +26,7 @@ var tourDates = [
   {
     date: 'Friday June 16',
     city: 'Thousand Oaks, CA',
-    venue: 'Thousand Oaks Civic Plaza',
+    venue: 'Thousand Oaks Civic Arts Plaza',
     url: 'http://bit.ly/2nofzTD'
   },
   {
@@ -38,7 +38,7 @@ var tourDates = [
   {
     date: 'Monday June 19',
     city: 'Riverside, CA',
-    venue: 'The Fox Theatre',
+    venue: 'The Fox Performing Arts Center',
     url: 'http://bit.ly/2naAHf5'
   },
   {
@@ -74,7 +74,7 @@ var tourDates = [
   {
     date: 'Thursday June 29',
     city: 'Indianapolis, IN',
-    venue: 'Murat Theatre',
+    venue: 'Murat Theatre at Old National Centre',
     url: 'http://bit.ly/2nFwV0m'
   },
   {
@@ -116,7 +116,7 @@ var tourDates = [
   {
     date: 'Wednesday July 12',
     city: 'Akron, OH',
-    venue: 'Akron Civic Center',
+    venue: 'Akron Civic Theatre',
     url: 'http://bit.ly/2nkCnVC'
   },
   {
@@ -134,7 +134,7 @@ var tourDates = [
   {
     date: 'Saturday July 15',
     city: 'Baltimore, MD',
-    venue: 'Modell PAC @ The Lyric',
+    venue: 'The Modell Lyric',
     url: 'http://bit.ly/2najNgM'
   },
   {
@@ -152,19 +152,19 @@ var tourDates = [
   {
     date: 'Wednesday July 19',
     city: 'New York, NY',
-    venue: 'Town Hall',
+    venue: 'The Town Hall',
     url: 'http://bit.ly/2nZ2S49'
   },
   {
     date: 'Thursday July 20',
     city: 'Boston, MA',
-    venue: 'Wilbur Theatre',
+    venue: 'The Wilbur Theatre',
     url: 'http://bit.ly/2ntdZS7'
   },
   {
     date: 'Saturday July 22',
     city: 'Providence, RI',
-    venue: 'Veterans Memorial Auditorium',
+    venue: 'The VETS',
     url: 'http://bit.ly/2orgO3s'
   },
   {
@@ -176,7 +176,7 @@ var tourDates = [
   {
     date: 'Tuesday July 25',
     city: 'Atlanta, GA',
-    venue: 'Cobb PAC',
+    venue: 'Cobb Energy Centre',
     url: 'http://bit.ly/2naEQ2A'
   },
   {
