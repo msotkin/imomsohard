@@ -3,97 +3,97 @@ var tourDates = [
     date: 'Monday June 12',
     city: 'Modesto, CA',
     venue: 'Gallo Center for the Arts',
-    url: ''
+    url: 'http://bit.ly/2o37Yga'
   },
   {
     date: 'Tuesday June 13',
     city: 'San Jose, CA',
     venue: 'San Jose Center for Performing Arts',
-    url: ''
+    url: 'http://bit.ly/2nFFoAO'
   },
   {
     date: 'Wednesday June 14',
     city: 'Santa Rosa, CA',
     venue: 'Luther Burbank Center for the Arts',
-    url: ''
+    url: 'http://bit.ly/2mSkzxH'
   },
   {
     date: 'Thursday June 15',
     city: 'Fresno, CA',
     venue: 'William Saroyan Theatre',
-    url: ''
+    url: 'http://bit.ly/2naDNQe'
   },
   {
     date: 'Friday June 16',
     city: 'Thousand Oaks, CA',
     venue: 'Thousand Oaks Civic Plaza',
-    url: ''
+    url: 'http://bit.ly/2nofzTD'
   },
   {
     date: 'Saturday June 17',
     city: 'Los Angeles, CA',
     venue: 'The Theatre at Ace Hotel',
-    url: ''
+    url: 'http://bit.ly/2nFsv9K'
   },
   {
     date: 'Monday June 19',
     city: 'Riverside, CA',
     venue: 'The Fox Theatre',
-    url: ''
+    url: 'http://bit.ly/2naAHf5'
   },
   {
     date: 'Wednesday June 21',
     city: 'Denver, CO',
     venue: 'Paramount Theatre',
-    url: ''
+    url: 'http://bit.ly/2mJB3wV'
   },
   {
     date: 'Thursday June 22',
     city: 'Fort Collins, CO',
     venue: 'Lincoln Center',
-    url: ''
+    url: 'http://bit.ly/2mZo4T3'
   },
   {
     date: 'Saturday June 24',
     city: 'Omaha, NE',
     venue: 'Holland Performing Arts Center',
-    url: ''
+    url: 'http://bit.ly/2o3pZeB'
   },
   {
     date: 'Sunday June 25',
     city: 'Kansas City, MO',
     venue: 'Arvest Bank Theatre',
-    url: ''
+    url: 'http://bit.ly/2nFpGVZ'
   },
   {
     date: 'Tuesday June 27',
     city: 'St Louis, MO',
     venue: 'Touhill Performing Arts Center',
-    url: ''
+    url: 'http://bit.ly/2noaric'
   },
   {
     date: 'Thursday June 29',
     city: 'Indianapolis, IN',
     venue: 'Murat Theatre',
-    url: ''
+    url: 'http://bit.ly/2nFwV0m'
   },
   {
     date: 'Friday June 30',
     city: 'Peoria, IL',
     venue: 'Peoria Civic Center',
-    url: ''
+    url: 'http://bit.ly/2nnZAoz'
   },
   {
     date: 'Thursday July 6',
     city: 'Green Bay, WI',
     venue: 'Meyer Theatre',
-    url: ''
+    url: 'http://bit.ly/2mZh48H'
   },
   {
     date: 'Friday July 7',
     city: 'Chicago, IL',
     venue: 'Vic Theatre',
-    url: ''
+    url: 'http://ticketf.ly/2n9P2rn'
   },
   {
     date: 'Saturday July 8',
@@ -105,91 +105,91 @@ var tourDates = [
     date: 'Sunday July 9',
     city: 'Grand Rapids, MI',
     venue: 'DeVos Performance Hall',
-    url: ''
+    url: 'http://bit.ly/2n1NdO2'
   },
   {
     date: 'Tuesday July 11',
     city: 'Columbus, OH',
     venue: 'The Southern Theatre',
-    url: ''
+    url: 'http://bit.ly/2o37l6A'
   },
   {
     date: 'Wednesday July 12',
     city: 'Akron, OH',
     venue: 'Akron Civic Center',
-    url: ''
+    url: 'http://bit.ly/2nkCnVC'
   },
   {
     date: 'Thursday July 13',
     city: 'Pittsburgh, PA',
     venue: 'Byham Theater',
-    url: ''
+    url: 'http://bit.ly/2no36PE'
   },
   {
     date: 'Friday July 14',
     city: 'York, PA',
     venue: 'Pullo Center',
-    url: ''
+    url: 'http://bit.ly/2na5aJz'
   },
   {
     date: 'Saturday July 15',
     city: 'Baltimore, MD',
-    venue: 'The Modell Lyric',
-    url: ''
+    venue: 'Modell PAC @ The Lyric',
+    url: 'http://bit.ly/2najNgM'
   },
   {
     date: 'Sunday July 16',
     city: 'Englewood, NJ',
     venue: 'Bergen Performance Arts Center',
-    url: ''
+    url: 'http://bit.ly/2o2SjO1'
   },
   {
     date: 'Monday July 17',
     city: 'Red Bank, NJ',
     venue: 'Count Basie Theatre',
-    url: ''
+    url: 'http://bit.ly/2o38nPF'
   },
   {
     date: 'Wednesday July 19',
     city: 'New York, NY',
     venue: 'Town Hall',
-    url: ''
+    url: 'http://bit.ly/2nZ2S49'
   },
   {
     date: 'Thursday July 20',
     city: 'Boston, MA',
     venue: 'Wilbur Theatre',
-    url: ''
+    url: 'http://bit.ly/2ntdZS7'
   },
   {
     date: 'Saturday July 22',
     city: 'Providence, RI',
-    venue: 'The VETS',
-    url: ''
+    venue: 'Veterans Memorial Auditorium',
+    url: 'http://bit.ly/2orgO3s'
   },
   {
     date: 'Sunday July 23',
     city: 'Washington, DC',
     venue: 'Warner Theatre',
-    url: ''
+    url: 'http://bit.ly/2mJsr9S'
   },
   {
     date: 'Tuesday July 25',
     city: 'Atlanta, GA',
-    venue: 'Cobb Energy Centre',
-    url: ''
+    venue: 'Cobb PAC',
+    url: 'http://bit.ly/2naEQ2A'
   },
   {
     date: 'Thursday July 27',
     city: 'San Antonio, TX',
     venue: 'Tobin Center',
-    url: ''
+    url: 'http://bit.ly/2n9Ophw'
   },
   {
     date: 'Saturday July 29',
     city: 'Dallas, TX',
     venue: 'Majestic Theatre',
-    url: ''
+    url: 'http://bit.ly/2n1TY2b'
   },
   {
     date: 'Sunday July 30',
@@ -201,13 +201,13 @@ var tourDates = [
     date: 'Monday July 31',
     city: 'Midwest City, OK',
     venue: 'Rose State College Hudiburg Chevrolet Center',
-    url: ''
+    url: 'http://bit.ly/2na8rZ0'
   },
   {
     date: 'Tuesday August 1',
     city: 'Tulsa, OK',
-    venue: 'Cox Business Center',
-    url: ''
+    venue: 'Cox Center',
+    url: 'http://bit.ly/2mK0azU'
   }
 ]
 
@@ -220,8 +220,7 @@ document.addEventListener("DOMContentLoaded",
       a = document.createElement("a");
       button = document.createElement("button");
 
-      button.setAttribute("disabled", "true");
-      button.innerHTML = "COMING SOON!!!";
+      button.innerHTML = "TICKETS!";
       a.setAttribute("href", tourDates[i].url);
       a.setAttribute("target", "_blank");
       a.appendChild(button);
