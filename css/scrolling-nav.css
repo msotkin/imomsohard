@@ -154,7 +154,11 @@ iframe {
 
 .modal-body h1 {
     color: #ff2cb1;
-    margin-bottom: 50px;
+}
+
+.modal-body img {
+    width: 210px;
+    height: 100%;
 }
 
 .modal-body p {
@@ -234,7 +238,12 @@ iframe {
 
 .tour-section h3 {
     color: white;
-    margin-bottom: 60px;
+}
+
+.tour-section img {
+    width: 210px;
+    height: 100%;
+    margin-bottom: 40px;
 }
 
 .tour-dates li {

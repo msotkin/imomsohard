@@ -1,5 +1,17 @@
 var tourDates = [
   {
+    date: 'Friday May 19',
+    city: 'Portland, OR',
+    venue: 'Bloom Festival - Portland Marriott Downtown',
+    url: 'https://www.eventbrite.com/e/bloom-a-3-day-event-featuring-imomsohard-tickets-29553443144'
+  },
+  {
+    date: 'Sunday May 21',
+    city: 'Seattle, WA',
+    venue: 'Moore Theatre',
+    url: 'https://www.stgpresents.org/tickets/by-month/eventdetail/3333/27%7C28%7C29%7C30/imomsohard-live'
+  },
+  {
     date: 'Monday June 12',
     city: 'Modesto, CA',
     venue: 'Gallo Center for the Arts',
@@ -51,25 +63,40 @@ var tourDates = [
     date: 'Thursday June 22',
     city: 'Fort Collins, CO',
     venue: 'Lincoln Center',
-    url: 'http://bit.ly/2mZo4T3'
+    url: 'http://www.lctix.com/imomsohard'
+  },
+  {
+    date: 'Friday June 23',
+    city: 'Omaha, NE',
+    venue: 'Holland Performing Arts Center',
+    url: 'https://ticketomaha.com/Productions/imomsohard'
   },
   {
     date: 'Saturday June 24',
     city: 'Omaha, NE',
     venue: 'Holland Performing Arts Center',
-    url: 'http://bit.ly/2o3pZeB'
+    url: 'http://bit.ly/2o3pZeB',
+    soldOut: true
   },
   {
-    date: 'Sunday June 25',
+    date: 'Sunday June 25 - 3PM',
     city: 'Kansas City, MO',
     venue: 'Arvest Bank Theatre',
-    url: 'http://bit.ly/2nFpGVZ'
+    url: 'http://www.axs.com/artists/1102775/imomsohard-tickets'
+  },
+  {
+    date: 'Sunday June 25 - 7PM',
+    city: 'Kansas City, MO',
+    venue: 'Arvest Bank Theatre',
+    url: 'http://bit.ly/2nFpGVZ',
+    soldOut: true
   },
   {
     date: 'Tuesday June 27',
     city: 'St Louis, MO',
     venue: 'Touhill Performing Arts Center',
-    url: 'http://bit.ly/2noaric'
+    url: 'http://bit.ly/2noaric',
+    soldOut: true
   },
   {
     date: 'Thursday June 29',
@@ -87,7 +114,7 @@ var tourDates = [
     date: 'Thursday July 6',
     city: 'Green Bay, WI',
     venue: 'Meyer Theatre',
-    url: 'http://ev3.evenue.net/cgi-bin/ncommerce3/EVExecMacro?linkID=pmi&evm=prmo&RSRC=&RDAT=&caller=PR'
+    url: 'http://bit.ly/2mZh48H'
   },
   {
     date: 'Friday July 7',
@@ -128,8 +155,8 @@ var tourDates = [
   {
     date: 'Friday July 14',
     city: 'York, PA',
-    venue: 'Pullo Center',
-    url: 'http://bit.ly/2na5aJz'
+    venue: 'Strand Capitol Performing Arts Center',
+    url: 'https://appellcenter.org/show/imomsohard'
   },
   {
     date: 'Saturday July 15',
@@ -147,7 +174,7 @@ var tourDates = [
     date: 'Monday July 17',
     city: 'Red Bank, NJ',
     venue: 'Count Basie Theatre',
-    url: 'http://bit.ly/2o38nPF'
+    url: 'http://www.countbasietheatre.org/calendar/show/show.asp?id=43250058'
   },
   {
     date: 'Wednesday July 19',
@@ -192,7 +219,19 @@ var tourDates = [
     url: 'http://bit.ly/2n1TY2b'
   },
   {
-    date: 'Sunday July 30',
+    date: 'Saturday July 29',
+    city: 'Austin, TX',
+    venue: 'Austin City Limits at the Moody Theater',
+    url: 'https://www.ticketfly.com/purchase/event/1474943'
+  },
+  {
+    date: 'Sunday July 30 - 3PM',
+    city: 'Houston, TX',
+    venue: 'Cullen Performance Hall',
+    url: 'http://www1.ticketmaster.com/event/3A005284A38A981E'
+  },
+  {
+    date: 'Sunday July 30 - 7PM',
     city: 'Houston, TX',
     venue: 'Cullen Performance Hall',
     url: 'http://bit.ly/2o2gKLc'
@@ -220,7 +259,7 @@ document.addEventListener("DOMContentLoaded",
       a = document.createElement("a");
       button = document.createElement("button");
 
-      button.innerHTML = "TICKETS!";
+      tourDates[i].soldOut ? button.innerHTML = "SOLD OUT!" : button.innerHTML = "TICKETS!";
       a.setAttribute("href", tourDates[i].url);
       a.setAttribute("target", "_blank");
       a.appendChild(button);
