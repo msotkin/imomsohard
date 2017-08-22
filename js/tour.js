@@ -69,7 +69,8 @@ var tourDates = [
     date: 'Friday June 23',
     city: 'Omaha, NE',
     venue: 'Holland Performing Arts Center',
-    url: 'https://ticketomaha.com/Productions/imomsohard'
+    url: 'https://ticketomaha.com/Productions/imomsohard',
+    soldOut: true
   },
   {
     date: 'Saturday June 24',
@@ -108,13 +109,14 @@ var tourDates = [
     date: 'Friday June 30',
     city: 'Peoria, IL',
     venue: 'Peoria Civic Center',
-    url: 'http://bit.ly/2nnZAoz'
+    url: 'http://bit.ly/2nnZAoz',
+    soldOut: true
   },
   {
     date: 'Thursday July 6',
     city: 'Green Bay, WI',
     venue: 'Meyer Theatre',
-    url: 'http://bit.ly/2mZh48H'
+    url: 'https://meyertheatre.org/imomsohard-2017-07-06/'
   },
   {
     date: 'Friday July 7',
@@ -162,19 +164,19 @@ var tourDates = [
     date: 'Saturday July 15',
     city: 'Baltimore, MD',
     venue: 'The Modell Lyric',
-    url: 'http://bit.ly/2najNgM'
+    url: 'https://modell-lyric.com/event/imomsohard/'
   },
   {
     date: 'Sunday July 16',
     city: 'Englewood, NJ',
     venue: 'Bergen Performance Arts Center',
-    url: 'http://bit.ly/2o2SjO1'
+    url: 'https://www.bergenpac.org/events/detail/imomsohard'
   },
   {
     date: 'Monday July 17',
     city: 'Red Bank, NJ',
     venue: 'Count Basie Theatre',
-    url: 'http://www.countbasietheatre.org/calendar/show/show.asp?id=43250058'
+    url: 'http://www.countbasietheatre.org/events/imomsohard/'
   },
   {
     date: 'Wednesday July 19',
@@ -186,7 +188,8 @@ var tourDates = [
     date: 'Thursday July 20',
     city: 'Boston, MA',
     venue: 'The Wilbur Theatre',
-    url: 'http://bit.ly/2ntdZS7'
+    url: 'http://bit.ly/2ntdZS7',
+    soldOut: true
   },
   {
     date: 'Saturday July 22',
@@ -234,19 +237,27 @@ var tourDates = [
     date: 'Sunday July 30 - 7PM',
     city: 'Houston, TX',
     venue: 'Cullen Performance Hall',
-    url: 'http://bit.ly/2o2gKLc'
+    url: 'http://bit.ly/2o2gKLc',
+    soldOut: true
   },
   {
     date: 'Monday July 31',
     city: 'Midwest City, OK',
     venue: 'Rose State College Hudiburg Chevrolet Center',
-    url: 'http://bit.ly/2na8rZ0'
+    url: 'http://bit.ly/2na8rZ0',
+    soldOut: true
   },
   {
     date: 'Tuesday August 1',
     city: 'Tulsa, OK',
     venue: 'Cox Business Center Ballroom',
-    url: 'http://bit.ly/2mK0azU'
+    url: 'http://coxcentertulsa.com/event/imomsohard/'
+  },
+  {
+    date: 'Saturday November 18',
+    city: 'Henderson, NV',
+    venue: 'Green Valley Ranch Grand Events Center',
+    url: 'https://www1.ticketmaster.com/event/1700530AA3C42E45'
   }
 ]
 
@@ -254,19 +265,24 @@ document.addEventListener("DOMContentLoaded",
   function() {
     var v = document.getElementsByClassName("tour-dates");
     var li, p, a, button;
-    for (var i = 0; i < tourDates.length; i++) {
+    tourDates.filter(function(data) {
+      var t = data.date.split(' ');
+      console.log(new Date(t[1] + ' ' + t[2] +', 2017 23:59:59'));
+      console.log(Date.now());
+      return new Date(t[1] + ' ' + t[2] +', 2017 23:59:59') > Date.now();
+    }).forEach(function(tourDate) {
       li = document.createElement("li");
       a = document.createElement("a");
       button = document.createElement("button");
 
-      tourDates[i].soldOut ? button.innerHTML = "SOLD OUT!" : button.innerHTML = "TICKETS!";
-      a.setAttribute("href", tourDates[i].url);
+      tourDate.soldOut ? button.innerHTML = "SOLD OUT!" : button.innerHTML = "TICKETS!";
+      a.setAttribute("href", tourDate.url);
       a.setAttribute("target", "_blank");
       a.appendChild(button);
       
-      li.innerHTML = "<h4>"+tourDates[i].date + "</h4><p><span>" + tourDates[i].city + "</span></p><p>" + tourDates[i].venue + "</p>";
+      li.innerHTML = "<h4>"+tourDate.date + "</h4><p><span>" + tourDate.city + "</span></p><p>" + tourDate.venue + "</p>";
 
       li.appendChild(a);
       v[0].appendChild(li);
-    }
+    });
   })
