@@ -1,281 +1,123 @@
 var tourDates = [
   {
-    date: 'Friday May 19',
-    city: 'Portland, OR',
-    venue: 'Bloom Festival - Portland Marriott Downtown',
-    url: 'https://www.eventbrite.com/e/bloom-a-3-day-event-featuring-imomsohard-tickets-29553443144'
+    date: 'Saturday March 3',
+    city: 'Reno, NV',
+    venue: 'Silver Legacy Casino',
+    url: 'https://www1.ticketmaster.com/imomsohard-reno-nevada-03-03-2018/event/17005354E2D359F6'
   },
   {
-    date: 'Sunday May 21',
-    city: 'Seattle, WA',
-    venue: 'Moore Theatre',
-    url: 'https://www.stgpresents.org/tickets/by-month/eventdetail/3333/27%7C28%7C29%7C30/imomsohard-live'
+    date: 'Wednesday April 18',
+    city: 'Nashville, TN',
+    venue: 'Ryman Auditorium',
+    url: 'https://www1.ticketmaster.com/event/1B005387CED6A3B9'
   },
   {
-    date: 'Monday June 12',
-    city: 'Modesto, CA',
-    venue: 'Gallo Center for the Arts',
-    url: 'http://bit.ly/2o37Yga'
+    date: 'Friday April 27',
+    city: 'Scottsdale, AZ',
+    venue: 'Talking Stick Resort',
+    url: 'https://www1.ticketmaster.com/event/19005432FC3A54E5#efeat4212'
   },
   {
-    date: 'Tuesday June 13',
-    city: 'San Jose, CA',
-    venue: 'San Jose Center for Performing Arts',
-    url: 'http://bit.ly/2nFFoAO'
+    date: 'Saturday April 28',
+    city: 'Scottsdale, AZ',
+    venue: 'Talking Stick Resort',
+    url: 'http://www.ticketmaster.com/event/190054286E580F57'
   },
   {
-    date: 'Wednesday June 14',
-    city: 'Santa Rosa, CA',
-    venue: 'Luther Burbank Center for the Arts',
-    url: 'http://bit.ly/2mSkzxH'
+    date: 'Thursday May 3',
+    city: 'Norfolk, VA',
+    venue: 'Chrysler Hall',
+    url: 'http://www.ticketmaster.com/event/01005456F100BE7C'
   },
   {
-    date: 'Thursday June 15',
-    city: 'Fresno, CA',
-    venue: 'William Saroyan Theatre',
-    url: 'http://bit.ly/2naDNQe'
+    date: 'Saturday May 5',
+    city: 'Raleigh, NC',
+    venue: 'Raleigh Memorial Auditorium',
+    url: 'http://www.ticketmaster.com/event/0E00544ECB6FB8FE'
   },
   {
-    date: 'Friday June 16',
-    city: 'Thousand Oaks, CA',
-    venue: 'Thousand Oaks Civic Arts Plaza',
-    url: 'http://bit.ly/2nofzTD'
+    date: 'Sunday May 6',
+    city: 'Charlotte, NC',
+    venue: 'Ovens Auditorium',
+    url: 'http://www.ticketmaster.com/event/0E00544E011CDAAE'
   },
   {
-    date: 'Saturday June 17',
-    city: 'Los Angeles, CA',
-    venue: 'The Theatre at Ace Hotel',
-    url: 'http://bit.ly/2nFsv9K'
+    date: 'Tuesday May 8',
+    city: 'Rosemont, IL',
+    venue: 'Rosemont Theatre',
+    url: ''
   },
   {
-    date: 'Monday June 19',
-    city: 'Riverside, CA',
-    venue: 'The Fox Performing Arts Center',
-    url: 'http://bit.ly/2naAHf5'
-  },
-  {
-    date: 'Wednesday June 21',
-    city: 'Denver, CO',
-    venue: 'Paramount Theatre',
-    url: 'http://bit.ly/2mJB3wV'
-  },
-  {
-    date: 'Thursday June 22',
-    city: 'Fort Collins, CO',
-    venue: 'Lincoln Center',
-    url: 'http://www.lctix.com/imomsohard'
-  },
-  {
-    date: 'Friday June 23',
-    city: 'Omaha, NE',
-    venue: 'Holland Performing Arts Center',
-    url: 'https://ticketomaha.com/Productions/imomsohard',
-    soldOut: true
-  },
-  {
-    date: 'Saturday June 24',
-    city: 'Omaha, NE',
-    venue: 'Holland Performing Arts Center',
-    url: 'http://bit.ly/2o3pZeB',
-    soldOut: true
-  },
-  {
-    date: 'Sunday June 25 - 3PM',
-    city: 'Kansas City, MO',
-    venue: 'Arvest Bank Theatre',
-    url: 'http://www.axs.com/artists/1102775/imomsohard-tickets'
-  },
-  {
-    date: 'Sunday June 25 - 7PM',
-    city: 'Kansas City, MO',
-    venue: 'Arvest Bank Theatre',
-    url: 'http://bit.ly/2nFpGVZ',
-    soldOut: true
-  },
-  {
-    date: 'Tuesday June 27',
-    city: 'St Louis, MO',
-    venue: 'Touhill Performing Arts Center',
-    url: 'http://bit.ly/2noaric',
-    soldOut: true
-  },
-  {
-    date: 'Thursday June 29',
-    city: 'Indianapolis, IN',
-    venue: 'Murat Theatre at Old National Centre',
-    url: 'http://bit.ly/2nFwV0m'
-  },
-  {
-    date: 'Friday June 30',
+    date: 'Wednesday May 9',
     city: 'Peoria, IL',
     venue: 'Peoria Civic Center',
-    url: 'http://bit.ly/2nnZAoz',
-    soldOut: true
+    url: 'http://www.ticketmaster.com/event/0700544ECFBE6984'
   },
   {
-    date: 'Thursday July 6',
-    city: 'Green Bay, WI',
-    venue: 'Meyer Theatre',
-    url: 'https://meyertheatre.org/imomsohard-2017-07-06/'
+    date: 'Thursday May 10',
+    city: 'Toledo, OH',
+    venue: 'Stranahan Theatre & Great Hall',
+    url: 'http://www.etix.com/ticket/p/5153454/imomsohardmoms-night-out-round-2-toledo-stranahan-theater'
   },
   {
-    date: 'Friday July 7',
-    city: 'Chicago, IL',
-    venue: 'Vic Theatre',
-    url: 'http://ticketf.ly/2n9P2rn'
+    date: 'Saturday May 12',
+    city: 'Milwaukee, WI',
+    venue: 'Riverside Theater',
+    url: 'http://pabsttheater.org/event/IMOMSOHARD2018/'
   },
   {
-    date: 'Saturday July 8',
-    city: 'Flint, MI',
-    venue: 'The Whiting',
-    url: 'http://bit.ly/2nHRyJo'
+    date: 'Thursday May 31',
+    city: 'Kansas City, MO',
+    venue: 'Starlight Theater',
+    url: 'http://tickets.kcstarlight.com/single/psdetail.aspx?psn=2508'
   },
   {
-    date: 'Sunday July 9',
-    city: 'Grand Rapids, MI',
-    venue: 'DeVos Performance Hall',
-    url: 'http://bit.ly/2n1NdO2'
+    date: 'Friday June 1',
+    city: 'Lincoln, NE',
+    venue: 'Pinewood Bowl Ampitheater',
+    url: 'http://www.ticketmaster.com/event/06005456F8B8CCB4'
   },
   {
-    date: 'Tuesday July 11',
-    city: 'Columbus, OH',
-    venue: 'The Southern Theatre',
-    url: 'http://bit.ly/2o37l6A'
+    date: 'Saturday June 2',
+    city: 'Cedar Rapids, IA',
+    venue: 'McGrath Ampitheatre',
+    url: 'http://www.ticketmaster.com/event/06005456A904A30E'
   },
   {
-    date: 'Wednesday July 12',
-    city: 'Akron, OH',
-    venue: 'Akron Civic Theatre',
-    url: 'http://bit.ly/2nkCnVC'
+    date: 'Friday June 15',
+    city: 'Saratoga, CA',
+    venue: 'Mountain Winery',
+    url: 'http://www.mountainwinery.com/'
   },
   {
-    date: 'Thursday July 13',
-    city: 'Pittsburgh, PA',
-    venue: 'Byham Theater',
-    url: 'http://bit.ly/2no36PE'
+    date: 'Saturday June 16',
+    city: 'Paso Robles, CA',
+    venue: 'Vina Robles Ampitheatre',
+    url: 'http://www.ticketmaster.com/event/0900544FBAEF749D'
   },
   {
-    date: 'Friday July 14',
-    city: 'York, PA',
-    venue: 'Strand Capitol Performing Arts Center',
-    url: 'https://appellcenter.org/show/imomsohard'
+    date: 'Saturday July 7',
+    city: 'Las Vegas, NV',
+    venue: 'Green Valley Ranch Resort & Spa',
+    url: 'http://www.ticketmaster.com/event/1700544FD3F27157'
   },
-  {
-    date: 'Saturday July 15',
-    city: 'Baltimore, MD',
-    venue: 'The Modell Lyric',
-    url: 'https://modell-lyric.com/event/imomsohard/'
-  },
-  {
-    date: 'Sunday July 16',
-    city: 'Englewood, NJ',
-    venue: 'Bergen Performance Arts Center',
-    url: 'https://www.bergenpac.org/events/detail/imomsohard'
-  },
-  {
-    date: 'Monday July 17',
-    city: 'Red Bank, NJ',
-    venue: 'Count Basie Theatre',
-    url: 'http://www.countbasietheatre.org/events/imomsohard/'
-  },
-  {
-    date: 'Wednesday July 19',
-    city: 'New York, NY',
-    venue: 'The Town Hall',
-    url: 'http://bit.ly/2nZ2S49'
-  },
-  {
-    date: 'Thursday July 20',
-    city: 'Boston, MA',
-    venue: 'The Wilbur Theatre',
-    url: 'http://bit.ly/2ntdZS7',
-    soldOut: true
-  },
-  {
-    date: 'Saturday July 22',
-    city: 'Providence, RI',
-    venue: 'The VETS',
-    url: 'http://bit.ly/2orgO3s'
-  },
-  {
-    date: 'Sunday July 23',
-    city: 'Washington, DC',
-    venue: 'Warner Theatre',
-    url: 'http://bit.ly/2mJsr9S'
-  },
-  {
-    date: 'Tuesday July 25',
-    city: 'Atlanta, GA',
-    venue: 'Cobb Energy Centre',
-    url: 'http://bit.ly/2naEQ2A'
-  },
-  {
-    date: 'Thursday July 27',
-    city: 'San Antonio, TX',
-    venue: 'Tobin Center',
-    url: 'http://bit.ly/2n9Ophw'
-  },
-  {
-    date: 'Friday July 28',
-    city: 'Dallas, TX',
-    venue: 'Majestic Theatre',
-    url: 'http://bit.ly/2n1TY2b'
-  },
-  {
-    date: 'Saturday July 29',
-    city: 'Austin, TX',
-    venue: 'Austin City Limits at the Moody Theater',
-    url: 'https://www.ticketfly.com/purchase/event/1474943'
-  },
-  {
-    date: 'Sunday July 30 - 3PM',
-    city: 'Houston, TX',
-    venue: 'Cullen Performance Hall',
-    url: 'http://www1.ticketmaster.com/event/3A005284A38A981E'
-  },
-  {
-    date: 'Sunday July 30 - 7PM',
-    city: 'Houston, TX',
-    venue: 'Cullen Performance Hall',
-    url: 'http://bit.ly/2o2gKLc',
-    soldOut: true
-  },
-  {
-    date: 'Monday July 31',
-    city: 'Midwest City, OK',
-    venue: 'Rose State College Hudiburg Chevrolet Center',
-    url: 'http://bit.ly/2na8rZ0',
-    soldOut: true
-  },
-  {
-    date: 'Tuesday August 1',
-    city: 'Tulsa, OK',
-    venue: 'Cox Business Center Ballroom',
-    url: 'http://coxcentertulsa.com/event/imomsohard/'
-  },
-  {
-    date: 'Saturday November 18',
-    city: 'Henderson, NV',
-    venue: 'Green Valley Ranch Grand Events Center',
-    url: 'https://www1.ticketmaster.com/event/1700530AA3C42E45'
-  }
 ]
 
 document.addEventListener("DOMContentLoaded", 
   function() {
     var v = document.getElementsByClassName("tour-dates");
     var li, p, a, button;
-    tourDates.filter(function(data) {
+    var datesToParse = moment() < moment.tz("2018-02-26 10:00:00", "America/New_York") ? tourDates.slice(0, 4) : tourDates;
+    datesToParse.filter(function(data, idx) {
       var t = data.date.split(' ');
-      console.log(new Date(t[1] + ' ' + t[2] +', 2017 23:59:59'));
-      console.log(Date.now());
-      return new Date(t[1] + ' ' + t[2] +', 2017 23:59:59') > Date.now();
+      return new Date(t[1] + ' ' + t[2] +', 2018 23:59:59') > Date.now();
     }).forEach(function(tourDate) {
       li = document.createElement("li");
       a = document.createElement("a");
       button = document.createElement("button");
 
       tourDate.soldOut ? button.innerHTML = "SOLD OUT!" : button.innerHTML = "TICKETS!";
+      if (!tourDate.url) button.innerHTML = "Coming Soon!";
       a.setAttribute("href", tourDate.url);
       a.setAttribute("target", "_blank");
       a.appendChild(button);
