@@ -63,9 +63,11 @@ var videoIds = {
   ],
   media: [
     { url: 'http://media3.floodradio.com/columbus/2016/12/MOM-SO-HARD.mp4', title: 'News Channel Nebraska (Feb 2017)', thumbnail: 'assets/nebraskavid.png', box: false },
-    { url: 'http://mediaassets.kmtv.com/video/video_studio/2016/09/30/I_Mom_So_Hard_9_30_16_561742_1200.mp4', title: 'The Morning Blend (Oct 2016)', thumbnail: 'http://mediaassets.kmtv.com/photo/2016/09/30/16x9/I_Mom_So_Hard_9_30_16_0_47162525_ver1.0_640_480.jpg', box: false },
     { id: '10153983845021771', title: 'The Doctors (Nov. 2016)', thumbnail: 'https://scontent.xx.fbcdn.net/v/t15.0-10/s480x480/15260435_10153982579366771_7034849456650452992_n.jpg?oh=2e5e818f86ed80acdbeeb4cb07768fdd&oe=596E8ACD', box: false },
     { id: '2365982476875792', title: 'Hooray For Half a Million Likes!', thumbnail: 'https://scontent.xx.fbcdn.net/v/t15.0-10/p480x480/15452764_2365982576875782_6848821937590763520_n.jpg?oh=d0fd10aa1c158abb5081171f097829f3&oe=59730E81', box: true }
+  ],
+  amazon: [
+    { url: 'https://s3-us-west-1.amazonaws.com/imomsohard.com/assets/amazon_compressed.mp4', title: 'We Amazon Fashion Wardrobe So Hard', thumbnail: 'https://i.vimeocdn.com/video/716697100.webp?mw=960&mh=540', box: false }
   ]
 }
 

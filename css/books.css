@@ -1,0 +1,88 @@
+body {
+  font-family: 'Nunito', serif;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 3rem;
+}
+
+.masthead {
+  height: 100vh;
+  min-height: 775px;
+  padding-top: 0;
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.about {
+  padding: 150px 0;
+  color: #ff2cb1;
+}
+
+#mainNav {
+  transition: all .35s;
+}
+
+.navbar-shrink {
+  background-color: black;
+}
+
+#mainNav.navbar-shrink .navbar-brand {
+  color: #ff2cb1;
+}
+
+.title {
+  font-weight: 700;
+}
+
+.btn-outline {
+  color: black;
+  border: 1px solid black;
+}
+
+.btn {
+  border-radius: 300px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-xl {
+  font-size: 11px;
+  padding: 15px 45px;
+}
+
+.btn-outline:hover {
+  background-color: #ff2cb1;
+  color: white;
+  border-color: #ff2cb1;
+}
+
+.modal-header {
+  border: none;
+}
+
+.modal-body h1 {
+  color: #ff2cb1;
+  font-weight: 700;
+}
+
+.link {
+  color: #ff2cb1;
+  font-weight: 700;
+}
+
+.link:hover {
+  color: #c12086;
+}
+
+.section-heading {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.about {
+  background-color: black;
+}
