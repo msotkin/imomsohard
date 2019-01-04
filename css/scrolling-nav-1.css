@@ -208,6 +208,10 @@ iframe {
     margin-top: 50px;
 }
 
+.intro-section a {
+    color: white;
+}
+
 .intro-section div {
     width: 100%;
     background-color: black;
@@ -227,6 +231,7 @@ iframe {
     max-width: 100%;
     min-width: 100%;
     height: 100%;
+    background-position: 0 30px;
     background-repeat: no-repeat;
     background-size: cover;
 }

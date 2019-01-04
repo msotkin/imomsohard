@@ -9,11 +9,17 @@ p {
 }
 
 .masthead {
-  height: 100vh;
-  min-height: 775px;
-  padding-top: 0;
-  padding-bottom: 0;
   width: 100%;
+  padding-top: 60px;
+  padding-bottom: 100px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.masthead img {
+  margin-bottom: 80px;
 }
 
 .about {
@@ -40,6 +46,7 @@ p {
 .btn-outline {
   color: black;
   border: 1px solid black;
+  background-color: transparent;
 }
 
 .btn {
@@ -79,7 +86,7 @@ p {
 }
 
 .section-heading {
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -89,4 +96,25 @@ p {
 
 .order {
   padding: 100px 0;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    height: 100vh;
+    min-height: 775px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .masthead img {
+    margin-bottom: 0;
+  }
+
+  .header-content {
+    text-align: left;
+  }
+
+  .section-heading {
+    font-size: 45px;
+  }
 }
