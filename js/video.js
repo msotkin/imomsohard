@@ -127,7 +127,6 @@ document.addEventListener("DOMContentLoaded", function() {
       iframe.setAttribute("style", "border:none;overflow:hidden");
       iframe.setAttribute("scrolling", "no");
       iframe.setAttribute("frameborder", "0");
-      iframe.setAttribute("autoplay", false);
       iframe.setAttribute("controls", "true");
       iframe.setAttribute("allowTransparency", "true");
       iframe.setAttribute("allowfullscreen", "true");
